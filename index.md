@@ -1,18 +1,18 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-venue: "FIXME"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
-country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
-language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
+venue: "Clemson University"        # brief name of host site without address (e.g., "Euphoric State University")
+address: "ADDRESS GOES HERE"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
+language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 latitude: "45"     # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1"    # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+humandate: "March 16 -17, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "TIMES NEEDED"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2020-03-16      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2020-03-17        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Sherry Lake", "Patricia Carbajales"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["HELPER NAMRS"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+email: ["shlake@virginia.edu", "HOST EMAIL CONTACT"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -60,6 +60,9 @@ It looks like you are setting up a website for a Data Carpentry curriculum but y
 </div>
 {% endunless %}
 {% endif %}
+
+EVENTBRITE
+NEED alphanumeric key for Eventbrite registration
 
 {% comment %}
 EVENTBRITE
@@ -152,9 +155,11 @@ Modify the block below if there are any special requirements.
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>).
 </p>
 
-{% comment %}
-ACCESSIBILITY
 
+ACCESSIBILITY
+Any special concerns (barriers) to accessibility?
+
+{% comment %}
 Modify the block below if there are any barriers to accessibility or
 special instructions.
 {% endcomment %}
@@ -176,11 +181,12 @@ special instructions.
   attempt to provide them.
 </p>
 
-{% comment %}
+
 CONTACT EMAIL ADDRESS
 
 Display the contact email address set in the configuration file.
-{% endcomment %}
+
+
 <p id="contact">
   <strong>Contact</strong>:
   Please email
@@ -237,6 +243,8 @@ We will use this <a href="{{page.collaborative_notes}}">collaborative document</
 <hr/>
 {% endif %}
 
+SURVEYS
+Will there be any??
 
 {% comment %} 
 SURVEYS - DO NOT EDIT SURVEY LINKS 

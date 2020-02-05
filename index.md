@@ -157,7 +157,6 @@ Modify the block below if there are any special requirements.
 
 
 ACCESSIBILITY
-Any special concerns (barriers) to accessibility?
 
 {% comment %}
 Modify the block below if there are any barriers to accessibility or

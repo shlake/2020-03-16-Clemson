@@ -61,8 +61,8 @@ It looks like you are setting up a website for a Data Carpentry curriculum but y
 {% endunless %}
 {% endif %}
 
-REGISTRATION
-https://secure.touchnet.net/C20569_ustores/web/classic/product_detail.jsp?PRODUCTID=4256
+<h2>REGISTRATION</h2>
+<a href="https://secure.touchnet.net/C20569_ustores/web/classic/product_detail.jsp?PRODUCTID=4256">https://secure.touchnet.net/C20569_ustores/web/classic/product_detail.jsp?PRODUCTID=4256</a>
 
 {% comment %}
 EVENTBRITE
@@ -155,10 +155,10 @@ Modify the block below if there are any special requirements.
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>).
 </p>
 
-
+{% comment %}
 ACCESSIBILITY
 
-{% comment %}
+
 Modify the block below if there are any barriers to accessibility or
 special instructions.
 {% endcomment %}
@@ -179,11 +179,11 @@ special instructions.
   attempt to provide them.
 </p>
 
-
+{% comment %}
 CONTACT EMAIL ADDRESS
 
 Display the contact email address set in the configuration file.
-
+{% endcomment %}
 
 <p id="contact">
   <strong>Contact</strong>:
@@ -241,9 +241,10 @@ We will use this <a href="{{page.collaborative_notes}}">collaborative document</
 <hr/>
 {% endif %}
 
+{% comment %} 
 SURVEYS
 
-{% comment %} 
+
 SURVEYS - DO NOT EDIT SURVEY LINKS 
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>

@@ -120,11 +120,13 @@ This block displays the address and links to maps showing directions
 if the latitude and longitude of the workshop have been set.  You
 can use https://itouchmap.com/latlong.html to find the lat/long of an
 address.
+{% endcomment %}
 
 {% if page.latitude and page.longitude %}
 <p id="where">
   <strong>Where:</strong>
   {{page.address}}.
+  {% comment %}
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
   or

@@ -167,7 +167,7 @@ special instructions.
   <li>The room is wheelchair / scooter accessible, further information on this coming soon.</li>
 </ul>
 <p>
-  Other information: https://www.stayatclemson.com/accessibility-statement
+  Other information: <a href="https://www.stayatclemson.com/accessibility-statement">https://www.stayatclemson.com/accessibility-statement</a>
   </p>
 {% comment %}
 <p>

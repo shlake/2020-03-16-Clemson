@@ -167,6 +167,10 @@ special instructions.
   <li>The room is wheelchair / scooter accessible, further information on this coming soon.</li>
 </ul>
 <p>
+  Other information: https://www.stayatclemson.com/accessibility-statement
+  </p>
+{% comment %}
+<p>
   Materials will be provided in advance of the workshop and
   large-print handouts are available if needed by notifying the
   organizers in advance.  If we can help making learning easier for
@@ -174,7 +178,7 @@ special instructions.
   get in touch (using contact details below) and we will
   attempt to provide them.
 </p>
-
+{% endcomment %}
 {% comment %}
 CONTACT EMAIL ADDRESS
 
